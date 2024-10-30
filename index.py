@@ -19,7 +19,7 @@ st.markdown("Enter market performance, inflation trends, competitor growth rates
 
 # Load and prepare data
 
-data = pd.read_csv(r"C:\Users\shaik\Downloads\New folder\company_growth_dataset.csv")
+data = pd.read_csv(r"company_growth_dataset.csv")
  
 # Prepare features and target'
 X = data[['Market_Index_Performance','Inflation_Rate','Competitor_Growth_Rates','Consumer_Spending_Rate','Company_Advertising_Budget']]
